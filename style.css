@@ -131,6 +131,8 @@ a:visited {
 .footer-links {
     display: flex;
     font-size: 14px;
+    border-top: solid 1px rgba(0,0,0,.15);
+    justify-content: space-between;
 }
 
 .footer-links a {
@@ -138,7 +140,10 @@ a:visited {
 }
 
 footer p {
-    margin-left: 40px;
+    margin-left: 27px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .footer-links ul {
@@ -152,4 +157,21 @@ footer p {
 footer {
     background-color: #f2f2f2;
     color: rgba(0,0,0,.54);
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    height: fit-content;
+    border-top: solid 1px rgba(0,0,0,.15)
+}
+
+.footer-links #left-footer {
+    padding-left: 0px;
+}
+
+.footer-links #left-footer li {
+    padding-left: 27px;
+}
+
+.footer-links #right-footer li {
+    padding-right: 27px;
 }
